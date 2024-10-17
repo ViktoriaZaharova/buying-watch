@@ -1,0 +1,172 @@
+.brands-page h1 {
+  margin: 0 auto 75px;
+  max-width: 700px;
+}
+
+.brand-card {
+  width: 100%;
+  height: 97px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 2px solid #aa8446;
+}
+.brand-card:hover {
+  box-shadow: 3px 3px 0 rgba(170, 132, 70, 0.8);
+}
+
+.cities-page h1 {
+  max-width: 435px;
+}
+.cities-page .subtitle {
+  margin: 0 auto 100px;
+}
+
+.list-cities {
+  -moz-column-count: 4;
+       column-count: 4;
+  padding: 0 70px;
+  width: 100%;
+  font-size: 16px;
+}
+.list-cities li a {
+  color: #000;
+}
+.list-cities li a:hover {
+  color: #aa8446;
+}
+
+.sell-section {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background: #f7f7f7;
+  padding: 50px 0 85px;
+}
+.sell-section::before, .sell-section:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: -135px;
+  width: 664px;
+  height: 1217px;
+}
+.sell-section::before {
+  left: 0;
+  background: url("../img/sell-decor1.png") no-repeat center;
+  background-size: cover;
+}
+.sell-section::after {
+  right: 0;
+  background: url("../img/sell-decor2.png") no-repeat center;
+  background-size: cover;
+}
+.sell-section h2 {
+  margin: 0 auto 30px;
+}
+.sell-section .subtitle {
+  margin: 0 auto 55px;
+}
+
+.callback-box {
+  max-width: 810px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(white, white) padding-box, linear-gradient(to bottom, rgb(170, 132, 70) 0%, rgba(170, 132, 70, 0) 50%, rgb(170, 132, 70) 100%) border-box;
+  border: 2px solid transparent;
+}
+.callback-box h3 {
+  margin: 0 auto;
+  max-width: 400px;
+}
+.callback-box .box-text {
+  margin: 75px 0 70px;
+  max-width: 400px;
+  font-family: "CenturyGothic", sans-serif;
+}
+.callback-box::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: -35px;
+  width: 446px;
+  height: 444px;
+  background: url("../img/sell-watch.png") no-repeat center;
+  background-size: 100%;
+}
+
+.list-messengers-v2 {
+  width: 100%;
+}
+.list-messengers-v2 li {
+  flex: 1;
+  margin: 0 20px 0 0;
+}
+.list-messengers-v2 li:last-child {
+  margin: 0;
+}
+.list-messengers-v2 .list-messengers__link {
+  width: 100%;
+  padding: 10px;
+  box-shadow: none;
+  justify-content: flex-start;
+}
+.list-messengers-v2 .list-messengers__link::before {
+  display: none;
+}
+.list-messengers-v2 .list-messengers__link:hover {
+  box-shadow: 0 0 10px rgba(170, 132, 70, 0.8);
+}
+
+.news-section {
+  padding: 60px 0 80px;
+}
+.news-section h2 {
+  margin: 0 auto 65px;
+}
+
+.news-card {
+  width: 100%;
+}
+.news-card__img {
+  width: 100%;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #efeff1;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.news-card__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.news-card__body {
+  width: 100%;
+  margin: 30px 0 0;
+}
+.news-card__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #222222;
+  margin: 0 0 10px;
+}
+.news-card__title:hover {
+  color: #aa8446;
+}
+.news-card .link {
+  margin: 15px 0 0;
+}

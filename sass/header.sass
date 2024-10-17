@@ -1,12 +1,86 @@
 @import "vars"
 
+header
+  .logo
+    margin: 0 auto 0 0
+  .address
+    margin: 0 0 0 auto  
+  
+
 .header-top
   padding: 9px 0 14px
   width: 100%
   display: flex
   align-items: center
   flex-wrap: wrap
-  
+
+.list-social
+  display: flex
+  align-items: center
+  li
+    margin: 0 15px 0 0
+    &:last-child
+      margin: 0  
+  a
+    @include d-flex
+    width: 52px
+    height: 52px
+    min-width: 52px
+    border-radius: 50%
+    padding: 5px
+    &:hover
+      margin-bottom: 5px
+  &__viber
+    background: #904bca
+  &__whatsapp
+    background: #33ae4b
+  &__tg
+    background: #34a4de       
+
+.phone-link
+  display: flex
+  align-items: center
+  justify-content: center
+  color: #000
+  font-size: 18px
+  margin: 0 0 0 15px
+  &__icon
+    @include d-flex
+    width: 52px
+    height: 52px
+    min-width: 52px
+    margin: 0 13px 0 0
+    border-radius: 50%
+    border: 1px solid #222222
+  &:hover
+    color: $brown
+
+.btn-burger
+  border: 1px solid #222222
+  border-radius: 5px
+  width: 42px
+  height: 38px
+  min-width: 42px
+  display: none
+  align-items: center
+  justify-content: center
+  flex-wrap: wrap
+  padding: 7px
+  cursor: pointer
+  margin-left: auto
+  &:hover
+    background: $brown
+    span
+      background: #fff
+  span
+    display: block
+    width: 100%
+    height: 2px
+    border-radius: 3px
+    background: #222222
+    transition: .3s ease
+
+
 .header-bottom
   width: 100%
   display: flex
@@ -24,6 +98,34 @@
     height: 1px
     background: url('../img/header-line.png') no-repeat center
     background-size: cover  
+  .address, .nav-social
+    display: none 
+  .btn-close
+    display: none   
+
+.btn-close
+  width: 40px
+  height: 40px
+  position: absolute
+  right: 10px
+  top: 10px
+  z-index: 2
+  border: 1px solid $brown
+  border-radius: 2px
+  padding: 0
+  span
+    position: absolute
+    width: 3px
+    background: $brown
+    border-radius: 2px
+    height: 24px
+    left: 17px
+    top: 7px
+    &:first-child
+      transform: rotate(45deg)
+    &:last-child
+      transform: rotate(135deg)  
+
 
 .nav-menu
   width: 100%
@@ -31,6 +133,7 @@
   align-items: center
   flex-wrap: wrap
   &__header
+    
     .menu
       justify-content: center
       li

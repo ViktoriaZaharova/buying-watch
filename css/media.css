@@ -1,2 +1,273 @@
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 992px) {
+  .col-16 {
+    width: 20%;
+  }
+  .page {
+    padding: 70px 0;
+  }
+  .nav-breadcrumb {
+    padding: 0;
+    margin: 0 0 40px;
+  }
+  h1, .h1 {
+    font-size: 40px;
+    margin: 0 auto 30px;
+  }
+  h2, .h2 {
+    font-size: 24px;
+  }
+  h3, .h3, .subtitle {
+    font-size: 24px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .logo-img {
+    width: 70px;
+    min-width: 70px;
+  }
+  .logo-text {
+    max-width: 90px;
+  }
+  .brands-page h1 {
+    margin: 0 auto 30px;
+  }
+  .list-social a, .phone-link__icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    padding: 10px;
+  }
+  .phone-link {
+    font-size: 14px;
+  }
+  .list-cities {
+    padding: 0;
+  }
+  .cities-page .subtitle {
+    margin: 0 auto 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .fixed-btn {
+    width: 60px;
+    height: 60px;
+    right: 20px;
+    bottom: 70px;
+  }
+  .fixed-btn-chat {
+    right: 50px;
+    bottom: 10px;
+    padding: 15px 20px 15px 15px;
+  }
+  .container {
+    padding: 0 10px;
+  }
+  .row {
+    margin: 0 -10px;
+  }
+  .col-16, .col-25 {
+    padding: 0 10px;
+  }
+  .col-25 {
+    width: 50%;
+  }
+  .mb-30 {
+    margin-bottom: 20px;
+  }
+  .btn-burger {
+    display: flex;
+  }
+  .phone-link__text {
+    display: none;
+  }
+  .phone-link__icon {
+    margin: 0;
+  }
+  .header-top .address {
+    display: none;
+  }
+  .header-bottom {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: -3px 0 5px rgba(170, 132, 70, 0.6);
+    display: none;
+  }
+  .header-bottom::before {
+    display: none;
+  }
+  .header-bottom .address {
+    display: block;
+    width: 100%;
+    margin: 20px 0 0;
+    padding: 10px 0 0;
+    border-top: 1px solid #aa8446;
+  }
+  .header-bottom .btn-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-menu__header .menu {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-menu__header .menu li {
+    margin: 0 0 10px;
+  }
+  .nav-menu__header .menu li:last-child {
+    margin: 0;
+  }
+  .list-social li {
+    margin: 0 10px 0 0;
+  }
+  .phone-link {
+    margin: 0 0 0 10px;
+  }
+  .footer-bottom {
+    padding: 20px 0;
+  }
+  footer .menu {
+    justify-content: center;
+    flex-direction: column;
+  }
+  footer .menu li {
+    margin: 0 auto 10px;
+  }
+  footer .menu li:last-child {
+    margin: 0 auto;
+  }
+  .list-messengers__link {
+    width: 150px;
+    min-width: 150px;
+  }
+  .list-cities {
+    -moz-column-count: 2;
+         column-count: 2;
+  }
+  .callback-box {
+    padding: 30px;
+  }
+  .callback-box:after {
+    width: 346px;
+    height: 344px;
+  }
+  .callback-box .box-text {
+    margin: 50px 0;
+  }
+  .sell-section {
+    padding: 40px 0;
+  }
+  .news-section h2 {
+    margin: 0 auto 30px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .nav-breadcrumb {
+    margin: 0 0 30px;
+  }
+  .page {
+    padding: 50px 0;
+  }
+  .footer-top {
+    padding: 20px 0 30px;
+  }
+  h1, .h1 {
+    font-size: 24px;
+  }
+  h2, .h2 {
+    font-size: 20px;
+    margin: 0 auto 20px;
+  }
+  h3, .h3, .subtitle {
+    font-size: 20px;
+  }
+  .col-16 {
+    width: 33.33%;
+  }
+  .col-25 {
+    width: 50%;
+  }
+  .btn-burger {
+    margin: 0 0 0 10px;
+  }
+  .header-top .nav-social {
+    display: none;
+  }
+  .header-bottom .nav-social {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0 0;
+    margin: 20px 0 0;
+    border-top: 1px solid #aa8446;
+  }
+  .header-bottom .list-social {
+    justify-content: center;
+  }
+  .list-messengers {
+    flex-direction: column;
+    align-items: center;
+  }
+  .list-messengers li {
+    margin: 0 0 10px;
+  }
+  .list-messengers__link {
+    width: 200px;
+    min-width: 200px;
+  }
+  .footer-top::before, .footer-top:after {
+    width: 155px;
+    height: 300px;
+  }
+  .news-section {
+    padding: 50px 0 40px;
+  }
+  .news-card__body {
+    margin: 20px 0 0;
+  }
+  .list-messengers li {
+    flex: none;
+    width: 100%;
+  }
+  .list-messengers .list-messengers__link {
+    justify-content: center;
+  }
+  .callback-box:after {
+    width: 246px;
+    height: 244px;
+  }
+  .sell-section .subtitle {
+    margin: 0 auto 30px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .page {
+    padding: 30px 0;
+  }
+  .col-25 {
+    width: 100%;
+  }
+  .callback-box .box-text {
+    margin: 20px 0;
+  }
+  .callback-box:after {
+    display: none;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .brand-card {
+    height: 70px;
+  }
+}

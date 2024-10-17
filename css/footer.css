@@ -4,13 +4,100 @@ footer .menu {
 }
 
 .footer-top {
-  padding: 20px 0;
+  padding: 20px 0 45px;
   text-align: center;
   color: #fff;
-  background: url("../img/footer-top-bg.jpg") no-repeat center;
+  background: #000000;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.footer-top::before, .footer-top:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: -35px;
+  width: 234px;
+  height: 430px;
+}
+.footer-top::before {
+  left: 0;
+  background: url("../img/footer-decor1.png") no-repeat center;
+  background-size: cover;
+}
+.footer-top::after {
+  right: 0;
+  background: url("../img/footer-decor2.png") no-repeat center;
   background-size: cover;
 }
 
 .footer-bottom {
   padding: 37px 0;
+}
+
+.list-messengers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.list-messengers li {
+  margin: 0 18px 0 0;
+}
+.list-messengers li:last-child {
+  margin: 0;
+}
+.list-messengers__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 51px;
+  width: 200px;
+  min-width: 200px;
+  border-radius: 5px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.list-messengers__link::before {
+  content: "";
+  position: absolute;
+  top: -49px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 314px;
+  height: 182px;
+  z-index: -1;
+}
+.list-messengers__link:hover, .list-messengers__link:focus {
+  box-shadow: none;
+}
+.list-messengers img {
+  width: 30px;
+  margin: 0 10px 0 0;
+}
+.list-messengers__viber {
+  background: #904bca;
+  box-shadow: 2px 3px 0 #490086;
+}
+.list-messengers__viber::before {
+  background: url("../img/viber-shadow.png") no-repeat center;
+  background-size: 100%;
+}
+.list-messengers__whatsapp {
+  background: #33ae4b;
+  box-shadow: 2px 3px 0 #027118;
+}
+.list-messengers__whatsapp::before {
+  background: url("../img/whatsapp-shadow.png") no-repeat center;
+  background-size: 100%;
+}
+.list-messengers__tg {
+  background: #34a4de;
+  box-shadow: 2px 3px 0 #126c9b;
+}
+.list-messengers__tg::before {
+  background: url("../img/tg-shadow.png") no-repeat center;
+  background-size: 100%;
 }
