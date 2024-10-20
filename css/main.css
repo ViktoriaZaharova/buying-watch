@@ -192,10 +192,13 @@
   margin: 90px 0 130px;
 }
 .callback-section__img {
-  max-width: 588px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .callback-section__content {
-  width: calc(100% - 588px);
+  width: 50%;
   padding: 0 0 0 28px;
 }
 .callback-section__box {
@@ -416,4 +419,82 @@
 }
 .news-card .link {
   margin: 15px 0 0;
+}
+
+.contacts-box {
+  width: 100%;
+  margin: 0 0 50px;
+  text-align: center;
+}
+.contacts-box:last-child {
+  margin: 0;
+}
+.contacts-box__title {
+  text-transform: uppercase;
+  margin: 0 auto 20px;
+}
+.contacts-box__body p, .contacts-box__body a {
+  margin: 0 auto 10px;
+}
+.contacts-box__body p:last-child, .contacts-box__body a:last-child {
+  margin: 0 auto;
+}
+.contacts-box__body p img, .contacts-box__body a img {
+  display: inline;
+  margin: 0 10px 0 0;
+}
+.contacts-box__body a {
+  color: #222222;
+}
+.contacts-box__body a:hover {
+  color: #aa8446;
+}
+
+.contacts-cities {
+  width: 100%;
+  margin: 70px 0 0;
+}
+.contacts-cities h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 auto 50px;
+}
+
+.contacts-cities-item {
+  margin: 0 auto 40px;
+}
+.contacts-cities-item:last-child {
+  margin: 0 auto;
+}
+.contacts-cities-item .btn {
+  margin: 20px auto 0;
+}
+.contacts-cities-item h4 {
+  text-transform: none;
+  margin: 0 auto;
+}
+
+.contacts-location {
+  width: 100%;
+  margin: 100px 0 0;
+  text-align: center;
+}
+.contacts-location h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 auto 50px;
+}
+
+.map {
+  height: 488px;
+  max-width: 945px;
+  width: 100%;
+  margin: 0 auto;
+}
+.map iframe {
+  width: 100%;
+  height: 100%;
 }
