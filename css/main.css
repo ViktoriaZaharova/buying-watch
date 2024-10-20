@@ -38,6 +38,9 @@
   justify-content: center;
   margin: 0 auto 15px;
 }
+.advantages-box__icon img {
+  max-height: 100%;
+}
 .advantages-box h4 {
   text-transform: uppercase;
   margin: 0 auto 30px;
@@ -74,6 +77,149 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.individual-approach {
+  position: relative;
+  background: #000;
+  color: #fff;
+  padding: 64px 0 100px;
+  overflow: hidden;
+}
+.individual-approach .wrapper {
+  align-items: center;
+}
+.individual-approach__img {
+  margin: 0 0 -100px -185px;
+  width: 678px;
+}
+.individual-approach__content {
+  width: calc(100% - 508px);
+  text-align: left;
+}
+.individual-approach .subtitle {
+  margin: 0;
+  text-align: left;
+}
+
+.brands-watch {
+  padding: 67px 0 90px;
+}
+.brands-watch h2 {
+  margin: 0 auto 50px;
+  max-width: 650px;
+}
+
+.brands-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.brands-column__item {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 95px;
+  overflow: hidden;
+}
+
+.faq {
+  padding: 60px 0 90px;
+}
+
+.faq-content {
+  padding: 0 80px;
+}
+
+.faq-box {
+  margin: 0 0 30px;
+}
+.faq-box:last-child {
+  margin: 0;
+}
+
+.steps-work h2 {
+  margin: 0 auto 85px;
+}
+.steps-work .wrapper {
+  align-items: flex-start;
+}
+
+.step-box {
+  width: 25%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.step-box::before {
+  content: "";
+  position: absolute;
+  width: 51px;
+  height: 14px;
+  top: 40px;
+  z-index: -1;
+  right: -20px;
+  background: url("../img/arrow-step.png") no-repeat center;
+  background-size: 100%;
+}
+.step-box:last-child::before {
+  display: none;
+}
+.step-box__icon {
+  margin: 0 auto 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 103px;
+}
+.step-box__icon img {
+  max-height: 100%;
+}
+.step-box__body {
+  max-width: 265px;
+  margin: 0 auto;
+}
+.step-box h4 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.callback-section {
+  margin: 90px 0 130px;
+}
+.callback-section__img {
+  max-width: 588px;
+}
+.callback-section__content {
+  width: calc(100% - 588px);
+  padding: 0 0 0 28px;
+}
+.callback-section__box {
+  max-width: 464px;
+  width: 100%;
+  text-align: center;
+  padding: 40px 40px 60px;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(white, white) padding-box, linear-gradient(to bottom, rgb(170, 132, 70) 0%, rgba(170, 132, 70, 0) 50%, rgb(170, 132, 70) 100%) border-box;
+  border: 2px solid transparent;
+}
+.callback-section__box h3 {
+  color: #aa8446;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 0 auto 30px;
+}
+.callback-section__box .box-text {
+  font-family: "CenturyGothic", sans-serif;
+  max-width: 250px;
+  margin: 0 auto 50px;
 }
 
 .brands-page h1 {
@@ -212,6 +358,21 @@
 }
 .list-messengers-v2 .list-messengers__link:hover {
   box-shadow: 0 0 10px rgba(170, 132, 70, 0.8);
+}
+
+.list-messengers-column {
+  width: 100%;
+  max-width: 228px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+.list-messengers-column li {
+  margin: 0 auto 20px;
+  width: 100%;
+}
+.list-messengers-column li:last-child {
+  margin: 0;
 }
 
 .news-section {

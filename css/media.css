@@ -21,6 +21,9 @@
   h3, .h3, .subtitle {
     font-size: 24px;
   }
+  h4, .h4 {
+    font-size: 18px;
+  }
   .logo {
     font-size: 20px;
   }
@@ -48,6 +51,75 @@
   }
   .cities-page .subtitle {
     margin: 0 auto 30px;
+  }
+  .advantages-section {
+    margin: 50px 0;
+  }
+  .advantages-box .box-text {
+    font-size: 14px;
+  }
+  .advantages-box h4 {
+    margin: 0 auto 20px;
+  }
+  .why-choose {
+    margin: 60px 0;
+  }
+  .why-choose h2 {
+    margin: 0 auto 40px;
+  }
+  .why-choose .wrapper {
+    padding: 0;
+  }
+  .individual-approach {
+    padding: 60px 0;
+  }
+  .individual-approach__img {
+    width: 400px;
+    margin: 0;
+  }
+  .individual-approach__content {
+    width: calc(100% - 400px);
+  }
+  .subtitle p {
+    margin: 0 0 20px;
+  }
+  .subtitle p:last-child {
+    margin: 0;
+  }
+  .callback-section {
+    margin: 60px 0;
+  }
+  .callback-section .container {
+    align-items: center;
+  }
+  .callback-section__img {
+    max-width: 400px;
+  }
+  .callback-section__content {
+    width: calc(100% - 400px);
+  }
+  .callback-section__box {
+    max-width: 400px;
+    padding: 30px;
+  }
+  .callback-section__box h3 {
+    font-size: 24px;
+    margin: 0 auto 20px;
+  }
+  .callback-section__box .box-text {
+    margin: 0 auto 20px;
+  }
+  .list-messengers-column li {
+    margin: 0 auto 10px;
+  }
+  .list-messengers-column li:last-child {
+    margin: 0 auto;
+  }
+  .step-box {
+    padding: 0 10px;
+  }
+  .step-box__icon {
+    margin: 0 auto 20px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -172,6 +244,68 @@
   .news-section h2 {
     margin: 0 auto 30px;
   }
+  .home {
+    margin: 0;
+  }
+  .home h1 {
+    font-size: 60px;
+  }
+  .home-content {
+    padding: 0;
+    max-width: 450px;
+  }
+  .home .box-text {
+    margin: 30px 0;
+    font-size: 16px;
+  }
+  .btn-group .btn {
+    margin: 0 30px 0 0;
+  }
+  .btn-group .btn:last-child {
+    margin: 0;
+  }
+  .btn {
+    padding: 10px 25px;
+  }
+  .brands-watch {
+    padding: 50px 0;
+  }
+  .faq {
+    padding: 60px 0;
+  }
+  .faq-content {
+    padding: 0;
+  }
+  .callback-section {
+    margin: 50px 0;
+  }
+  .callback-section__img {
+    max-width: 250px;
+  }
+  .callback-section__content {
+    width: calc(100% - 250px);
+  }
+  .step-box {
+    width: 50%;
+    margin: 0 auto 20px;
+  }
+  .step-box:nth-child(2)::before {
+    display: none;
+  }
+  .why-choose__img {
+    max-width: 200px;
+  }
+  .why-choose__content {
+    width: calc(100% - 200px);
+  }
+  .individual-approach__img {
+    width: 100%;
+    order: 1;
+    margin: 20px 0 0;
+  }
+  .individual-approach__content {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 576px) {
   .nav-breadcrumb {
@@ -251,6 +385,57 @@
   .sell-section .subtitle {
     margin: 0 auto 30px;
   }
+  .sell-section .subtext {
+    margin: 0 auto 20px;
+  }
+  .callback-section__img {
+    max-width: none;
+    margin: 20px auto 0;
+    order: 1;
+  }
+  .callback-section__content {
+    width: 100%;
+    padding: 0;
+  }
+  .callback-section__box {
+    max-width: none;
+  }
+  .faq-box {
+    margin: 0 0 20px;
+  }
+  .brands-watch h2 {
+    margin: 0 auto 30px;
+  }
+  .home {
+    background: url("../img/home-bg-mobile.jpg") no-repeat center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  .home h1 {
+    font-size: 40px;
+  }
+  .home .box-text {
+    margin: 20px 0;
+  }
+  .home-content {
+    max-width: none;
+  }
+  .subtext {
+    font-size: 16px;
+  }
+  .why-choose h2 {
+    margin: 0 auto 30px;
+  }
+  .why-choose__img {
+    max-width: none;
+    margin: 20px 0 0;
+  }
+  .why-choose__content {
+    width: 100%;
+  }
+  .advantages-box__icon {
+    height: 70px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .page {
@@ -265,9 +450,30 @@
   .callback-box:after {
     display: none;
   }
+  .advantages-box .box-text {
+    max-width: none;
+  }
+  .home .btn-group {
+    flex-direction: column;
+  }
+  .home .btn-group .btn {
+    margin: 0 auto 20px;
+  }
+  .home .btn-group .btn:last-child {
+    margin: 0 auto;
+  }
 }
 @media only screen and (max-width: 420px) {
   .brand-card {
     height: 70px;
+  }
+  .step-box {
+    width: 100%;
+  }
+  .step-box::before {
+    display: none;
+  }
+  .step-box__icon {
+    height: 80px;
   }
 }
