@@ -197,6 +197,16 @@ button:hover, button:focus, .btn:hover, .btn:focus {
   color: #fff;
 }
 
+.btn-border-black {
+  color: #222222;
+  border: 1px solid #222222;
+  text-transform: none;
+}
+.btn-border-black:hover {
+  background: #222222;
+  color: #fff;
+}
+
 .svg-icon {
   display: inline-block;
   width: 100%;

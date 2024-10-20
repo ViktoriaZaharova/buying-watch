@@ -115,6 +115,22 @@
   .step-box__icon {
     margin: 0 auto 20px;
   }
+  .news-box {
+    padding: 20px 0;
+  }
+  .news-box:last-child {
+    padding-bottom: 0;
+  }
+  .news-box__body {
+    align-items: flex-start;
+  }
+  .news-box__content {
+    padding: 0 0 0 30px;
+    width: calc(100% - 350px);
+  }
+  .news-box__img {
+    max-width: 350px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .fixed-btn {
@@ -325,6 +341,14 @@
   }
   .map {
     height: 350px;
+  }
+  .news-box__img {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .news-box__content {
+    width: 100%;
+    padding: 20px 0 0;
   }
 }
 @media only screen and (max-width: 576px) {
