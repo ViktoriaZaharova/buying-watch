@@ -117,7 +117,13 @@
       padding: 0 0 0 30px
       width: calc( 100% - 350px )
     &__img
-      max-width: 350px      
+      max-width: 350px
+
+  .how-sell-elite h2
+    margin: 0 auto 40px
+
+  .list-number li::before
+    font-size: 28px
 
 @media only screen and (max-width: 768px)
   .fixed-btn
@@ -267,8 +273,18 @@
     margin: 50px 0
     &__img
       width: 250px
+      margin: 30px auto 0
+      order: 1
     &__content
-      width: calc( 100% - 250px )
+      width: 100%
+      padding: 0
+    &__steps
+      width: 100%
+      margin: 0 auto 30px
+      h3
+        padding: 0
+    &__box
+      margin: 0 auto
 
   .step-box
     width: 50%
@@ -279,29 +295,29 @@
 
   .why-choose__img
     max-width: 200px
-    
+
   .why-choose__content
-    width: calc( 100% - 200px )   
-    
+    width: calc( 100% - 200px )
+
   .individual-approach
     &__img
       width: 100%
       order: 1
       margin: 20px 0 0
     &__content
-      width: 100%  
+      width: 100%
 
   .contacts-location
-    margin: 50px 0 0 
+    margin: 50px 0 0
     h4
-      margin: 0 auto 30px    
+      margin: 0 auto 30px
       font-size: 16px
 
   .contacts-cities
     margin: 50px auto 0
     h4
-      margin: 0 auto 30px  
-      font-size: 16px  
+      margin: 0 auto 30px
+      font-size: 16px
 
   .contacts-cities-item
     margin: 0 0 30px
@@ -309,11 +325,10 @@
       margin: 0 auto
 
   .contacts-box
-    margin: 0 0 30px    
-        
+    margin: 0 0 30px
 
   .map
-    height: 350px  
+    height: 350px
 
   .news-box
     &__img
@@ -321,11 +336,26 @@
       margin: 0 auto
     &__content
       width: 100%
-      padding: 20px 0 0    
+      padding: 20px 0 0
+
+  .list-number li
+    align-items: flex-start
+    &::before
+      font-size: 24px
+
+  .article-content
+    width: 100%
+    padding: 0
+
+  .article-img
+    margin: 20px auto 0
 
 @media only screen and (max-width: 576px)
   .nav-breadcrumb
     margin: 0 0 30px
+
+  .breadcrumb
+    font-size: 14px
 
   .page
     padding: 50px 0
@@ -401,7 +431,7 @@
     .subtitle
       margin: 0 auto 30px
     .subtext
-      margin: 0 auto 20px  
+      margin: 0 auto 20px
 
   .callback-section
     &__img
@@ -438,14 +468,14 @@
   .why-choose
     h2
       margin: 0 auto 30px
-    &__img  
+    &__img
       max-width: none
       margin: 20px 0 0
     &__content
       width: 100%
 
   .advantages-box__icon
-    height: 70px    
+    height: 70px
 
   .map
     height: 300px
@@ -483,6 +513,6 @@
     &::before
       display: none
     &__icon
-      height: 80px    
+      height: 80px
 
 @media only screen and (max-width: 370px)

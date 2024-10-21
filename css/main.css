@@ -191,11 +191,23 @@
 .callback-section {
   margin: 90px 0 130px;
 }
+.callback-section .wrapper {
+  max-width: 1005px;
+  width: 100%;
+  margin: 0 auto;
+}
 .callback-section__img {
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.callback-section__steps {
+  width: 50%;
+}
+.callback-section__steps h3 {
+  text-align: left;
+  padding-left: 25px;
 }
 .callback-section__content {
   width: 50%;
@@ -546,4 +558,38 @@
 }
 .news-box .btn {
   margin: 20px 0 0;
+}
+
+.article-page {
+  padding: 120px 0 70px;
+}
+.article-page .wrapper {
+  max-width: 1005px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.article-content {
+  width: calc(100% - 338px);
+  padding: 0 30px 0 0;
+}
+
+.article-img {
+  max-width: 338px;
+}
+
+.how-sell-elite {
+  margin: 0;
+}
+.how-sell-elite h2 {
+  max-width: 760px;
+  margin: 0 auto 80px;
+}
+.how-sell-elite .callback-section__box {
+  max-width: 424px;
+}
+.how-sell-elite .callback-section__box h3 {
+  text-transform: none;
+  color: #222222;
+  margin: 0 auto 65px;
 }

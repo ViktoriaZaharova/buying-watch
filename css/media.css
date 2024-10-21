@@ -131,6 +131,12 @@
   .news-box__img {
     max-width: 350px;
   }
+  .how-sell-elite h2 {
+    margin: 0 auto 40px;
+  }
+  .list-number li::before {
+    font-size: 28px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .fixed-btn {
@@ -291,9 +297,22 @@
   }
   .callback-section__img {
     width: 250px;
+    margin: 30px auto 0;
+    order: 1;
   }
   .callback-section__content {
-    width: calc(100% - 250px);
+    width: 100%;
+    padding: 0;
+  }
+  .callback-section__steps {
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+  .callback-section__steps h3 {
+    padding: 0;
+  }
+  .callback-section__box {
+    margin: 0 auto;
   }
   .step-box {
     width: 50%;
@@ -350,10 +369,26 @@
     width: 100%;
     padding: 20px 0 0;
   }
+  .list-number li {
+    align-items: flex-start;
+  }
+  .list-number li::before {
+    font-size: 24px;
+  }
+  .article-content {
+    width: 100%;
+    padding: 0;
+  }
+  .article-img {
+    margin: 20px auto 0;
+  }
 }
 @media only screen and (max-width: 576px) {
   .nav-breadcrumb {
     margin: 0 0 30px;
+  }
+  .breadcrumb {
+    font-size: 14px;
   }
   .page {
     padding: 50px 0;

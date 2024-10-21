@@ -249,6 +249,27 @@ ul, ol {
   background-size: 100%;
 }
 
+.list-number {
+  counter-reset: list;
+}
+.list-number li {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0 20px;
+}
+.list-number li:last-child {
+  margin: 0;
+}
+.list-number li::before {
+  counter-increment: list;
+  content: counter(list) " ";
+  color: #aa8446;
+  font-weight: bold;
+  font-family: "CenturyGothic", sans-serif;
+  font-size: 32px;
+  margin: 0 10px 0 0;
+}
+
 h1, .h1 {
   width: 100%;
   text-align: center;
@@ -380,7 +401,7 @@ a.link:hover {
 .breadcrumb {
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 .breadcrumb li a {
   display: flex;
