@@ -57,18 +57,16 @@
   }
   .advantages-box .box-text {
     font-size: 14px;
+    margin: 20px auto 0;
   }
   .advantages-box h4 {
-    margin: 0 auto 20px;
+    margin: 0 auto;
   }
   .why-choose {
     margin: 60px 0;
   }
   .why-choose h2 {
     margin: 0 auto 40px;
-  }
-  .why-choose .wrapper {
-    padding: 0;
   }
   .individual-approach {
     padding: 60px 0;
@@ -136,6 +134,39 @@
   }
   .list-number li::before {
     font-size: 28px;
+  }
+  .grade-page h1 {
+    margin: 0 auto 30px;
+  }
+  .grade-page .subtext {
+    margin: 40px auto 0;
+  }
+  .grade-page .subtext p {
+    margin: 0 auto 20px;
+  }
+  .grade-page .subtext p:last-child {
+    margin: 0 auto;
+  }
+  .grade-image {
+    max-width: 400px;
+  }
+  .grade-content {
+    width: calc(100% - 400px);
+    font-size: 24px;
+  }
+  .btn-grade {
+    margin: 40px auto 0;
+  }
+  .btn-md {
+    font-size: 18px;
+    padding: 10px 40px;
+    height: 50px;
+  }
+  .about-image {
+    max-width: 300px;
+  }
+  .about-content {
+    width: calc(100% - 300px);
   }
 }
 @media only screen and (max-width: 768px) {
@@ -382,6 +413,43 @@
   .article-img {
     margin: 20px auto 0;
   }
+  .grade-content {
+    padding: 0;
+    width: 100%;
+    font-size: 18px;
+  }
+  .grade-content ul {
+    margin: 20px 0;
+  }
+  .grade-page .list-checked li::before {
+    width: 22px;
+    height: 19px;
+    min-width: 22px;
+  }
+  .price-text {
+    margin: 20px 0 0;
+  }
+  .grade-image {
+    max-width: none;
+    margin: 20px auto 0;
+  }
+  .about-image {
+    max-width: none;
+    margin: 20px auto 0;
+  }
+  .about-content {
+    width: 100%;
+    padding: 0;
+  }
+  .advantages-section .subtext {
+    margin: 20px auto 0;
+  }
+  .buying-watches {
+    margin: 50px 0;
+  }
+  .buying-watches .box-text {
+    margin: 0 auto;
+  }
 }
 @media only screen and (max-width: 576px) {
   .nav-breadcrumb {
@@ -557,5 +625,8 @@
   }
   .step-box__icon {
     height: 80px;
+  }
+  .section-image-v2 img {
+    margin: 0 0 0 100px;
   }
 }

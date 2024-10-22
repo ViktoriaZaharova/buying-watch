@@ -27,6 +27,15 @@
 .advantages-section {
   margin: 70px 0 50px;
 }
+.advantages-section h2 {
+  max-width: 700px;
+}
+.advantages-section .subtext {
+  max-width: 730px;
+  margin: 50px auto 0;
+  text-align: center;
+  font-size: 16px;
+}
 
 .advantages-box {
   text-align: center;
@@ -43,19 +52,26 @@
 }
 .advantages-box h4 {
   text-transform: uppercase;
-  margin: 0 auto 30px;
+  margin: 0 auto;
+  font-size: 16px;
 }
 .advantages-box .box-text {
   max-width: 230px;
-  margin: 0 auto;
+  margin: 30px auto 0;
   font-size: 18px;
 }
 
 .section-image {
   width: 100%;
+  background: #000;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.section-image img {
-  width: 100%;
+
+.section-image-v2 img {
+  margin: 0 0 0 200px;
 }
 
 .why-choose {
@@ -63,9 +79,6 @@
 }
 .why-choose h2 {
   margin: 0 auto 65px;
-}
-.why-choose .wrapper {
-  padding: 0 80px;
 }
 .why-choose__content {
   padding: 0 18px 0 0;
@@ -147,6 +160,7 @@
 }
 .steps-work .wrapper {
   align-items: flex-start;
+  max-width: none;
 }
 
 .step-box {
@@ -190,11 +204,6 @@
 
 .callback-section {
   margin: 90px 0 130px;
-}
-.callback-section .wrapper {
-  max-width: 1005px;
-  width: 100%;
-  margin: 0 auto;
 }
 .callback-section__img {
   width: 50%;
@@ -563,11 +572,6 @@
 .article-page {
   padding: 120px 0 70px;
 }
-.article-page .wrapper {
-  max-width: 1005px;
-  width: 100%;
-  margin: 0 auto;
-}
 
 .article-content {
   width: calc(100% - 338px);
@@ -594,7 +598,7 @@
   margin: 0 auto 65px;
 }
 
-.grade-page h2 {
+.grade-page h1 {
   margin: 0 auto 60px;
 }
 .grade-page .list-checked {
@@ -607,11 +611,6 @@
   width: 26px;
   height: 24px;
   min-width: 26px;
-}
-.grade-page .wrapper {
-  max-width: 1100px;
-  width: 100%;
-  margin: 0 auto;
 }
 .grade-page .subtext {
   margin: 80px auto 0;
@@ -652,4 +651,31 @@
 
 .btn-grade {
   margin: 80px auto 0;
+}
+
+.about-page .wrapper {
+  align-items: flex-start;
+}
+
+.about-image {
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content {
+  width: calc(100% - 450px);
+  padding: 0 10px 0 0;
+}
+
+.buying-watches {
+  margin: 50px 0 80px;
+}
+.buying-watches h2 {
+  margin: 0 auto 30px;
+}
+.buying-watches .box-text {
+  margin: 30px auto 0;
+  text-align: center;
 }

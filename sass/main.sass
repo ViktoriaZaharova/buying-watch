@@ -25,6 +25,13 @@
 
 .advantages-section
   margin: 70px 0 50px
+  h2
+    max-width: 700px
+  .subtext
+    max-width: 730px
+    margin: 50px auto 0
+    text-align: center 
+    font-size: 16px 
 
 .advantages-box
   text-align: center
@@ -36,23 +43,27 @@
       max-height: 100%
   h4
     text-transform: uppercase
-    margin: 0 auto 30px
+    margin: 0 auto 
+    font-size: 16px
   .box-text
     max-width: 230px
-    margin: 0 auto
+    margin: 30px auto 0
     font-size: 18px
 
 .section-image
   width: 100%
+  background: #000
+  overflow: hidden
+  @include d-flex
+ 
+.section-image-v2
   img
-    width: 100%
+    margin: 0 0 0 200px 
 
 .why-choose
   margin: 100px 0 90px
   h2
     margin: 0 auto 65px
-  .wrapper
-    padding: 0 80px
   &__content
     padding: 0 18px 0 0
     width: calc( 100% - 298px )
@@ -114,6 +125,7 @@
     margin: 0 auto 85px
   .wrapper
     align-items: flex-start
+    max-width: none
 
 .step-box
   width: 25%
@@ -148,10 +160,6 @@
 
 .callback-section
   margin: 90px 0 130px
-  .wrapper
-    max-width: 1005px
-    width: 100%
-    margin: 0 auto
   &__img
     width: 50%
     @include d-flex
@@ -453,10 +461,7 @@
 // article-page
 .article-page
   padding: 120px 0 70px
-  .wrapper
-    max-width: 1005px
-    width: 100%
-    margin: 0 auto
+  
 
 .article-content
   width: calc( 100% - 338px ) 
@@ -480,7 +485,7 @@
 
 // grade-page
 .grade-page
-  h2
+  h1
     margin: 0 auto 60px
   .list-checked
     margin: 30px 0
@@ -491,10 +496,6 @@
         width: 26px
         height: 24px
         min-width: 26px
-  .wrapper
-    max-width: 1100px
-    width: 100%
-    margin: 0 auto
   .subtext
     margin: 80px auto 0
     text-align: center
@@ -526,3 +527,24 @@
 
 .btn-grade
   margin: 80px auto 0
+
+// about page
+.about-page
+  .wrapper
+    align-items: flex-start
+
+.about-image
+  max-width: 450px
+  @include d-flex
+
+.about-content
+  width: calc( 100% - 450px ) 
+  padding: 0 10px 0 0   
+
+.buying-watches
+  margin: 50px 0 80px
+  h2
+    margin: 0 auto 30px
+  .box-text
+    margin: 30px auto 0
+    text-align: center  
