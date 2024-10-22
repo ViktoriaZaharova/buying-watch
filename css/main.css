@@ -593,3 +593,63 @@
   color: #222222;
   margin: 0 auto 65px;
 }
+
+.grade-page h2 {
+  margin: 0 auto 60px;
+}
+.grade-page .list-checked {
+  margin: 30px 0;
+}
+.grade-page .list-checked li {
+  align-items: center;
+}
+.grade-page .list-checked li::before {
+  width: 26px;
+  height: 24px;
+  min-width: 26px;
+}
+.grade-page .wrapper {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+.grade-page .subtext {
+  margin: 80px auto 0;
+  text-align: center;
+  max-width: 940px;
+  width: 100%;
+}
+.grade-page .subtext p {
+  margin: 0 0 30px;
+}
+.grade-page .subtext p:last-child {
+  margin: 0;
+}
+
+.price-text {
+  margin: 40px 0 0;
+}
+
+.price {
+  color: #aa8446;
+  font-weight: bold;
+}
+
+.grade-image {
+  max-width: 520px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grade-content {
+  width: calc(100% - 520px);
+  padding: 0 30px 0 0;
+  font-size: 32px;
+  font-family: "CenturyGothic", sans-serif;
+}
+
+.btn-grade {
+  margin: 80px auto 0;
+}
